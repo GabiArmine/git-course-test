@@ -10,7 +10,5 @@ class SumNumber:
   def __str__(self):
       return self.val
 
-# print('{}'.format(SumNumber(1)(2)(8)))
-
 a = SumNumber(1)(2)(3)
 print('{}'.format(a))
